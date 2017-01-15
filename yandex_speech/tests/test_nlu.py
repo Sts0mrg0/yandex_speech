@@ -2,15 +2,13 @@
 import unittest
 
 from yandex_speech import NLU
+from yandex_speech.tests.config import KEY
 
 
 TEXTS = {
     "Date": "7 июля 2007 года",
     "Fio": "иванов иван иванович",
 }
-
-# please don't use in their projects
-KEY = "60556d09-0e84-42b7-8974-9d0b01cfee33"
 
 
 class TestInit(unittest.TestCase):
